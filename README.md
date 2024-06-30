@@ -58,3 +58,12 @@ WGTMM9VP8Z, True, True, True
 56K4DSESF, False, False, True
 ...
 ```
+
+
+
+# Repo Structure from the Deep Snoopy Submission
+
+- `transcription.ipynb` includes the transcription of the audio, the client matching to the audio, and the factualness prediction. 
+- `fake_detect_fine_tune.ipynb` includes the AI vs Real audio prediction.
+- `speaker_identification.ipynb` includes the Impersonator vs True Client prediction.
+- `merge_data.ipynb` includes the merging of the results for the final submission. 
